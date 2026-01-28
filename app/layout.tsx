@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import Script from "next/script"
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -25,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <Script defer src="https://umami.pinuslab.dev/script.js" data-website-id="a64a4a47-68fe-4af5-b8bc-223be5fc4cdd"/>
+      </head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
