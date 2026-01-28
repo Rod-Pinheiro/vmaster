@@ -20,6 +20,7 @@ const cellphoneServices = [
   { icon: Plug, label: "Conector de carga" },
   { icon: RefreshCw, label: "Software e atualizações" },
   { icon: Power, label: "Aparelho não liga / molhou" },
+  { icon: MemoryStick, label: "Reparo de placa" },
 ]
 
 const notebookServices = [
@@ -28,6 +29,8 @@ const notebookServices = [
   { icon: Monitor, label: "Troca de tela" },
   { icon: Fan, label: "Limpeza interna" },
   { icon: Gauge, label: "Correção de lentidão" },
+  { icon: MemoryStick, label: "Reparo de placa" },
+
 ]
 
 export function ServicesSection() {
