@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
           <div className="flex items-center gap-3">
             <Image
-              src="/images/vmaster-logo.jpeg"
+              src="/images/vmaster-logo.webp"
               alt="V MASTER Logo"
               width={80}
               height={40}

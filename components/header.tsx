@@ -9,9 +9,9 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <div className="flex items-center gap-2">
+        <div className="flex bg-transparent items-center gap-2">
           <Image
-            src="/images/vmaster-logo.jpeg"
+            src="/images/vmaster-logo.webp"
             alt="V MASTER Logo"
             width={120}
             height={60}
