@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/hero-section"
 import { ServicesSection } from "@/components/services-section"
 import { DifferentialsSection } from "@/components/differentials-section"
 import { AboutSection } from "@/components/about-section"
+import { GoogleReviewsSection } from "@/components/google-reviews-section"
 import { ContactSection } from "@/components/contact-section"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
@@ -16,6 +17,7 @@ export default function Home() {
       <ServicesSection />
       <DifferentialsSection />
       <AboutSection />
+      <GoogleReviewsSection />
       <ContactSection />
       <CTASection />
       <Footer />
